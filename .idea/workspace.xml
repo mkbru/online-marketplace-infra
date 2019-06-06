@@ -44,14 +44,14 @@
         <counts>
           <entry key="backup" value="1" />
           <entry key="gitignore" value="19" />
-          <entry key="md" value="16" />
+          <entry key="md" value="28" />
           <entry key="tf" value="816" />
           <entry key="yaml" value="313" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="16" />
+          <entry key="Markdown" value="28" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="Terraform" value="816" />
           <entry key="YAML" value="313" />
@@ -65,8 +65,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="70" lean-forward="true" selection-start-column="70" selection-end-column="70" />
+              <first_editor relative-caret-position="15">
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -222,12 +222,12 @@
       <updated>1559306367443</updated>
       <workItem from="1559306368647" duration="7256000" />
       <workItem from="1559316135141" duration="308000" />
-      <workItem from="1559736715971" duration="15528000" />
+      <workItem from="1559736715971" duration="15605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23092000" />
+    <option name="totallyTimeSpent" value="23169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="786" extended-state="0" />
@@ -414,8 +414,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="70" lean-forward="true" selection-start-column="70" selection-end-column="70" />
+          <first_editor relative-caret-position="15">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
