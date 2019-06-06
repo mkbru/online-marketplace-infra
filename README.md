@@ -8,12 +8,15 @@
 
 1. Automating Infrastructure (Terraform) 
 https://github.com/mkbru/online-marketplace-infra/tree/master/infrastructure
+
 2. Automating Application Updates (Google Cloud Build) 
 https://github.com/mkbru/online-marketplace/blob/master/cloudbuild.yaml
+
 3. Testing (Travis CI) 
 https://github.com/mkbru/online-marketplace/blob/master/.travis.yml
-4. Secrets Management
-https://github.com/mkbru/online-marketplace-infra/blob/master/application/deployment.tf#L32-L50
+
+4. Secrets Management (Kubernetes)
+https://github.com/mkbru/online-marketplace-infra/blob/master/application/deployment.tf#L32-L50 <br />
 https://github.com/mkbru/online-marketplace-infra/blob/master/kubernetes/deployment.yaml#L23-L43
 
 Future Improvements
