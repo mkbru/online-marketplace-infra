@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: online-marketplace-deployment
+  namespace: online-marketplace-ns
+  labels:
+    app: online-marketplace
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: online-marketplace
+  template:
+    metadata:
+      labels:
+        app: online-marketplace
+    spec:
+      containers:
+      - name: online-marketplace-image
+        image: gcr.io/online-marketplace-242214/online-marketplace:latest
+        ports:
+        - containerPort: 3000
+        env:
+        - name: JWT_KEY
+          valueFrom:
+            secretKeyRef:
+              name: application-secrets
+              key: JWT_KEY
+        - name: PORT
+          valueFrom:
+            secretKeyRef:
+              name: application-secrets
+              key: PORT
+        - name: MONGO_DEV_URL
+          valueFrom:
+            secretKeyRef:
+              name: application-secrets
+              key: MONGO_DEV_URL
+        - name: MONGO_TEST_URL
+          valueFrom:
+            secretKeyRef:
+              name: application-secrets
+              key: MONGO_TEST_URL
