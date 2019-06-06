@@ -1,1 +1,1 @@
-![alt text](https://github.com/mkbru/online-marketplace-infra/blob/master/images/Untitled%20Diagram.png)
+![alt text](https://github.com/mkbru/online-marketplace-infra/blob/master/images/Untitled%20Diagram.png | width=600px)

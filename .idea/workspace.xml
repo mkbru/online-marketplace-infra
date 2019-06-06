@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="793ee2cb-d363-4a77-af28-c2d3afed7d14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/random.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +44,14 @@
         <counts>
           <entry key="backup" value="1" />
           <entry key="gitignore" value="19" />
-          <entry key="md" value="2" />
+          <entry key="md" value="16" />
           <entry key="tf" value="816" />
           <entry key="yaml" value="313" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="16" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="Terraform" value="816" />
           <entry key="YAML" value="313" />
@@ -70,7 +66,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
-                <caret column="68" selection-start-column="68" selection-end-column="68" />
+                <caret column="70" lean-forward="true" selection-start-column="70" selection-end-column="70" />
               </first_editor>
               <second_editor />
             </state>
@@ -226,18 +222,18 @@
       <updated>1559306367443</updated>
       <workItem from="1559306368647" duration="7256000" />
       <workItem from="1559316135141" duration="308000" />
-      <workItem from="1559736715971" duration="15394000" />
+      <workItem from="1559736715971" duration="15528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22958000" />
+    <option name="totallyTimeSpent" value="23092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="786" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -252,7 +248,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.43371758" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.43371758" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -419,7 +415,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret column="68" selection-start-column="68" selection-end-column="68" />
+            <caret column="70" lean-forward="true" selection-start-column="70" selection-end-column="70" />
           </first_editor>
           <second_editor />
         </state>
