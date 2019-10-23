@@ -1,1 +1,1 @@
-terraform init -backend-config="storage_account_name=ms1sandboxstorage" -backend-config="container_name=tfstate" -backend-config="access_key=sZHvFDImbuaZe6YdPguJ1oA8UtEFgGQADv6JIXYmkZgI3bloB9RArjgThOqvef0iJh7SEuSMyApWSpKtkuq/BQ==" -backend-config="key=codelab.microsoft.tfstate" 
+terraform init -backend-config="storage_account_name=<storageAccountName>" -backend-config="container_name=tfstate" -backend-config="access_key=<storageAccountAccessKey>" -backend-config="key=codelab.microsoft.tfstate" 
