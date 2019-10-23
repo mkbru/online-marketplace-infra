@@ -5,7 +5,7 @@ resource "google_service_account" "cluster" {
 }
 
 resource "google_project_iam_member" "image-pull-access" {
-  project = "online-marketplace-242214"
+  project = "online-marketplace-253817"
   role    = "roles/storage.admin"
   member = "serviceAccount:${google_service_account.cluster.email}"
 }

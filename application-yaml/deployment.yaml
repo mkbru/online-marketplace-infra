@@ -15,9 +15,11 @@ spec:
       labels:
         app: online-marketplace
     spec:
+      imagePullSecrets:
+        - name: acr-auth
       containers:
       - name: online-marketplace-image
-        image: gcr.io/online-marketplace-242214/online-marketplace:latest
+        image: sandboxregistry1234.azurecr.io/onlinemarketplace:v2
         ports:
         - containerPort: 3000
         env:
@@ -36,8 +38,19 @@ spec:
             secretKeyRef:
               name: application-secrets
               key: MONGO_DEV_URL
-        - name: MONGO_TEST_URL
+        - name: ACCOUNT_NAME
           valueFrom:
             secretKeyRef:
               name: application-secrets
-              key: MONGO_TEST_URL
+              key: ACCOUNT_NAME
+        - name: DATABASE_NAME
+          valueFrom:
+            secretKeyRef:
+              name: application-secrets
+              key: DATABASE_NAME
+        - name: KEY
+          valueFrom:
+            secretKeyRef:
+              name: application-secrets
+              key: KEY
+              

@@ -26,8 +26,8 @@ resource "kubernetes_deployment" "online-marketplace" {
       spec {
 
         container {
-          image = "gcr.io/online-marketplace-242214/online-marketplace:latest"
-          name  = "online-marketplace-image"
+          image = "sandboxregistry1234.azurecr.io/onlinemarketplace:latest"
+          name  = "onlinemarketplace"
 
           env {
             name  = "JWT_KEY"
@@ -42,11 +42,6 @@ resource "kubernetes_deployment" "online-marketplace" {
           env {
             name  = "MONGO_DEV_URL"
             value_from {secret_key_ref {name = "application-secrets" key = "MONGO_DEV_URL"}}
-          }
-
-          env {
-            name  = "MONGO_TEST_URL"
-            value_from {secret_key_ref {name = "application-secrets" key = "MONGO_TEST_URL"}}
           }
 
           resources{

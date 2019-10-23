@@ -5,7 +5,6 @@ resource "google_container_cluster" "gke" {
   initial_node_count  = "1"
   enable_legacy_abac  = false
   network             = "${google_compute_network.marketplace_network.id}"
-  min_master_version  = "1.11.9-gke.13"
 
   timeouts {
     create = "30m"
